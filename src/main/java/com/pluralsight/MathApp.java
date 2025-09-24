@@ -15,13 +15,20 @@ public class MathApp {
     int hour = 60;
     int day = 24 * hour;
 
+    int x1 = 5;
+    int y1 = 10;
+
+    int x2 = 85;
+    int y2 = 50;
+
+    double distance = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+
 // then code solution
-    System.out.println("The highest salary is " + highest_salary);
-    System.out.println("The smallest price is " + Math.min(truck_price, car_price));
+    System.out.println("The highest salary is: $" + highest_salary);
+    System.out.println("The smallest price is: $" + Math.min(truck_price, car_price));
     System.out.println(Math.pow(7.25, 2) * Math.PI);
     System.out.println(Math.sqrt(5.0));
-    System.out.println(Math.abs(5-10));
-    System.out.println(Math.abs(85-50));
+    System.out.println(distance);
     System.out.println(Math.abs(-3.8));
     System.out.println(Math.random());
     System.out.println(day * 24);
